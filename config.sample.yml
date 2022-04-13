@@ -1,0 +1,21 @@
+dns:
+  domains:
+  - ifconfig.me
+  - google.com
+  - helalchannel.com
+  - spotify.com
+  host: 127.0.0.1
+  port: 53
+  proxies:
+  - 127.0.0.1
+#  - 94.130.124.121
+log:
+  level: debug
+proxy:
+  host: 127.0.0.1
+  ports:
+  - 80
+  - 443
+sentry:
+  dsn: ""
+  enable: false
